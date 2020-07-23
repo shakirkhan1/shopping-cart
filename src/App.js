@@ -14,13 +14,12 @@ class App extends React.Component {
     };
   }
   sortProducts = (event) => {
-    // impl
     const sort = event.target.value;
     console.log(event.target.value);
     this.setState((state) => ({
       sort: sort,
       products: this.state.products
-        .slice()
+        .slice()    // doing sort on a copy
         .sort((a, b) =>
           sort === "lowest"
             ? a.price > b.price
@@ -37,7 +36,6 @@ class App extends React.Component {
     }));
   };
   filterProducts = (event) => {
-    // impl
     console.log(event.target.value);
     if (event.target.value === "") {
       this.setState({ size: event.target.value, products: data.products });
