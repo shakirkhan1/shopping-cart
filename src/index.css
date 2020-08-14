@@ -40,6 +40,7 @@ header {
   background-color: #203040;
   color: #ffffff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
 }
@@ -226,6 +227,9 @@ input {
   align-items: center;
   height: 100%;
 }
+.order-details #orderId{
+  color:#c2e184;
+}
 .order-details li {
   display: flex;
   justify-content: space-between;
@@ -234,10 +238,28 @@ input {
 .order-details li div {
   padding: 10px;
 }
+
 .order-details .items {
   text-align: right;
   padding: 0;
 }
 .success-message {
   color: green;
+}
+.order-details div.order-details-topic{
+  font-weight: bold;
+}
+/* Orders */
+.orders {
+  width: 100%;
+  padding: 20px;
+}
+tbody > tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+td {
+  padding: 10px;
+}
+th {
+  text-align: left;
 }

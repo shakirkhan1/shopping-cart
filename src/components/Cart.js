@@ -54,30 +54,30 @@ class Cart extends Component {
               </button>
               <div className="order-details">
                 <h3 className="success-message">Your order has been placed.</h3>
-                <h2>Order {order._id}</h2>
+                <h2>Order <span id="orderId">{order._id}</span></h2>
                 <ul>
                   <li>
-                    <div>Name:</div>
+                    <div className="order-details-topic">Name:</div>
                     <div>{order.name}</div>
                   </li>
                   <li>
-                    <div>Email:</div>
+                    <div className="order-details-topic">Email:</div>
                     <div>{order.email}</div>
                   </li>
                   <li>
-                    <div>Address:</div>
+                    <div className="order-details-topic">Address:</div>
                     <div>{order.address}</div>
                   </li>
                   <li>
-                    <div>Date:</div>
+                    <div className="order-details-topic">Date:</div>
                     <div>{order.createdAt}</div>
                   </li>
                   <li>
-                    <div>Total:</div>
+                    <div className="order-details-topic">Total:</div>
                     <div>{formatCurrency(order.total)}</div>
                   </li>
                   <li>
-                    <div>Cart Items:</div>
+                    <div className="order-details-topic">Cart Items:</div>
                     <div>
                       {order.cartItems.map((x) => (
                         <div>
