@@ -95,6 +95,9 @@ footer {
 .product img {
   max-width: 37rem;
   max-height: 37rem;
+  width: 100%;
+    height: 100%;
+    object-fit: scale-down;
 }
 .product-price {
   display: flex;
