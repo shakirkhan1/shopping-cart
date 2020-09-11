@@ -13,7 +13,7 @@ class App extends React.Component {
         <BrowserRouter>
           <div className="grid-container">
             <header>
-              <Link to="/">React Shopping Cart</Link>
+              <Link to="/"><img src="/images/logo2.png" alt="brand-logo" className="navbar-brand" width="120" height="45"></img></Link>
               <Link to="/admin">Admin</Link>
             </header>
             <main>
