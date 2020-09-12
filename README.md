@@ -1,6 +1,6 @@
 # Made an E-Commerce Shopping Cart using Node, React & Redux
 
-Visit at: https://shopnow-test.herokuapp.com/
+- Visit at: https://shopnow-test.herokuapp.com/
 
 ## Build With
 
@@ -9,7 +9,7 @@ Visit at: https://shopnow-test.herokuapp.com/
 
 ## Run locally
 
-Clone the repository
-Install all dependencies
-Runs the app in the development mode using : npm run server followed by npm start
-Visit http://localhost:3000/
+- Clone the repository
+- Install all dependencies
+- Runs the app in the development mode using : npm run server followed by npm start
+- Visit http://localhost:3000/
